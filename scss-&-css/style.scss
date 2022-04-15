@@ -1,0 +1,392 @@
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Color ::::::::::
+// :::::::::::::::::::::::::::::::::
+$blink_white: #ffffff;
+$blink_platinum: #E6E6E6;
+$blink_medium-aquamarine: #35DEA3;
+$blink_rich-black: #002f2f;
+$blink_deep-space-sparkle: #516969;
+$blink_quick-silver: #A2A2A2;
+$blink_onyx: #424242;
+$blink_jet: #2F2F2F;
+$blink_black: #070707;
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Bootstrap ::::::::::
+// :::::::::::::::::::::::::::::::::
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Typograhy ::::::::::
+// :::::::::::::::::::::::::::::::::
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+.mg-lead {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#display-heading-mobile {
+    font-size: 2.6rem;
+    font-weight: 200;
+    line-height: 3.6rem;
+    @media (min-width: 576px) {
+        font-size: 3.25rem;
+        line-height: 4.25rem;
+    }
+}
+
+.thank-you-display {
+    font-family: 'Anton', sans-serif;
+    font-size: var(--tyd-xl);
+    text-align: center;
+    text-transform: uppercase;
+    color: $blink_rich-black;
+}
+
+.thank-you-lead {
+    font-weight: 800;
+    letter-spacing: var(--tyl-spacing);
+    font-size: var(--tyl-xl);
+    text-align: center;
+    text-transform: uppercase;
+    color: $blink_rich-black;
+}
+
+:root {
+    // test kako zapisati responsive type
+    --tyl-xl: 1.5rem;
+    --tyl-spacing: none;
+    --tyd-xl: clamp(8rem, 20vw + 2rem, 35rem);
+    @media (min-width: 992px) {
+        --tyl-spacing: auto;
+    }
+    @media (min-width: 1200px) {
+        --tyl-spacing: 1.5rem;
+    }
+}
+
+
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: Base styles ::::::::::
+// :::::::::::::::::::::::::::::::::
+#hero-section {
+    background: linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)), url("../assets/imgaes/maj-gajsek_blink_izdelava-spletnih-strani-5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 100vh;
+    h1 {
+        color: $blink_white;
+    }
+}
+a {
+    text-decoration: none;
+}
+.mg-color-band {
+    background-color: $blink_deep-space-sparkle;
+    h3 {
+        color: $blink_white;
+    }
+    p, ul, ol {
+        color: $blink_platinum;
+    }
+}
+
+.mg-content-band {
+    color: $blink_white;
+    background-color: $blink_rich-black;
+    span {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
+
+.mg-container {
+    max-width: 540px;
+}
+
+.mg-color-card {
+    background-color: $blink_deep-space-sparkle;
+    max-width: 650px;
+    h5 {
+        color: $blink_white;
+    }
+    p {
+        color: $blink_platinum;
+    }
+    .mg-indication-number {
+        color: $blink_medium-aquamarine;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        @media (min-width: 768px) {
+            font-size: 9.375rem;
+        }
+    }
+}
+.mg-color-card-2 {
+    background-color: $blink_platinum;
+    max-width: 650px;
+    h5 {
+        color: $blink_jet;
+    }
+    p {
+        color: $blink_onyx;
+    }
+    .mg-indication-number {
+        color: $blink_medium-aquamarine;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        @media (min-width: 768px) {
+            font-size: 9.375rem;
+        }
+    }
+}
+.mg-simple-card-type-section {
+    background-color: $blink_deep-space-sparkle;
+    span,
+    h3 {
+        color: $blink_white;
+    }
+    p {
+        color: $blink_platinum;
+        max-width: 650px;
+    }  
+}
+.mg-background-secondary-color {
+    background-color: $blink_deep-space-sparkle;
+}
+#mg-contact-form-1 {
+    max-width: 650px;
+}
+#mg-contact-form-section-1 {
+    p {
+        max-width: 650px;
+    }
+}
+.mg-price-starting-point  {
+    background-color: $blink_rich-black;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    margin: 16px auto 48px;
+    border: none;
+    span {
+        color: $blink_white;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.mg-accordion-row {
+    background-color: $blink_deep-space-sparkle;
+    .mg-accordion {
+        background-color: $blink_deep-space-sparkle;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .mg-accordion-item {
+        background-color: $blink_platinum;
+        border: none;
+        border-radius: 8px;
+    }
+    .mg-accordion-header {
+        border-radius: 8px;
+        padding: 1rem 0;
+    }
+    .mg-accordion-button {
+        background-color: $blink_platinum;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 8px;
+    }
+}
+
+.mg-footer {
+    background-color: $blink_rich-black;
+    color: $blink_white;
+    a {
+        color: $blink_white;
+    }
+}
+
+
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: HEADER :::::::::::::::
+// :::::::::::::::::::::::::::::::::
+.mg-content-container {
+    max-width: 1400px;
+}
+
+.mg-nav-container {
+    flex-grow: 0;
+}
+
+
+
+// ::::::::::::::::::::::::::::::
+// Header disappear on scroll
+// ::::::::::::::::::::::::::::::
+.scrolled-down {
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+  .scrolled-up {
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+.mg-nav {
+    min-height: 90px;
+}
+.mg-nav-scrolled {
+    background-color: $blink_rich-black !important;
+}
+
+
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: HERO :::::::::::::::::
+// :::::::::::::::::::::::::::::::::
+#previous-work {
+    margin: 20vh 0 0 0;
+    h5 {
+        color: $blink_quick-silver;
+    }
+    hr {
+        border: 1px solid black;
+        opacity: 1;
+        width: 95%;
+        padding: 0;
+        max-width: 1400px;
+    }
+    .toggled-category {
+        color: $blink_black;
+        text-decoration: none;
+        transition: 0.65s ease;
+    }
+}
+
+
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: PROJECT GRID :::::::::
+// :::::::::::::::::::::::::::::::::
+.mg-grid-container {
+    column-count: 1;
+    column-gap: 16px;
+    position: relative;
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    @media (min-width: 576px) {
+        column-count: 2;
+    }
+    @media (min-width: 992px) {
+        column-count: 3;
+    }
+}
+.mg-grid-item {
+    display: inline-block;
+    
+    img {
+        position: relative;
+        width: 100%;
+    }
+    .mg-overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: 0.35s ease;
+        background-color: rgba(0, 0, 0, .6);
+        .mg-overlay-type-section {
+            position: absolute;
+            color: $blink_white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            h5 {
+                text-transform: uppercase;
+                color: $blink_white;
+            }
+        }
+    }
+}
+
+.mg-grid-item:hover .mg-overlay {
+    // On .mg-grid-hover effect mg-overlay
+    opacity: 1;
+}
+
+#mg-hider {
+    // Simply hides elements
+    display: none;
+}
+
+#all-categories,
+#web-dev-category,
+#ui-ux-category,
+#branding-category {
+    cursor: pointer;
+}
+
+// :::::::::::::::::::::::::::::::::
+// : SINGLE PROJECT PAGE :::::::::::
+// :::::::::::::::::::::::::::::::::
+#single-project {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+// :::::::::::::::::::::::::::::::::
+// :::::::::: ANIMATIONS :::::::::::
+// :::::::::::::::::::::::::::::::::
+.mg-fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.mg-fade-in.appear {
+    opacity: 1;
+}
+
+// :::::::::::::::::::::::::::::::::
+// ::::::: THANK YOU BIG BOLD:::::::
+// :::::::::::::::::::::::::::::::::
+#big-bold__container {
+    margin-top: 30vh;
+    @media (min-width: 992px) {
+        margin-top: 25vh;
+    }
+    @media (min-width: 1200px) {
+        margin-top: 15vh;
+    }
+}
