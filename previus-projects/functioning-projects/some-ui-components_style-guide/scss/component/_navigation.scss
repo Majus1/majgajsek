@@ -1,0 +1,52 @@
+// This is where the NAVIGAATION at :::::::::
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+
+// .nav {
+//     padding-left: 0;
+//     flex-basis: 100%;
+//     display: flex;
+//     flex-direction: column;
+//   }
+  
+//   .nav-link {
+//     text-align: center;
+//     border-radius: $edge-curve-s;
+//     padding: 10px 0;
+//     display: block;
+//     width: 100%;
+//     transition: 
+//       background-color .2s ease-in-out, 
+//       color .2s ease-in-out;
+//   }
+  
+//   .nav-link:hover {
+//     color: #fff;
+//     background-color: $acent-color;
+//   }
+
+  .nav {
+    // These are the group of related styles you are looking for
+    padding-left: 0;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &-link {
+      text-align: center;
+      border-radius: $edge-curve-s;
+      padding: 10px 0;
+      display: block;
+      width: 100%;
+      transition: 
+        background-color .2s ease-in-out, 
+        color .2s ease-in-out;
+    }
+
+    &-link:hover {
+      color: #fff;
+      background-color: $acent-color;
+    }
+  }

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit & Ready</title>
+
+    <!-- Bootsrap css -->
+    <link href="scss/main.css" rel="stylesheet">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <style>
+        section {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#info"><span class="fw-bold text-light"><i
+                        class="bi bi-book-half pe-2"></i>Fit & Ready</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light" aria-current="page" href="#info">Domov</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light" href="#topics">Poglavja</a>
+                    </li>
+                    <li class="nav-item d-md-none mx-1 mx-lg-0">
+                        <a class="nav-link text-light" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item d-none d-md-inline mx-1">
+                        <a href="#pricing" class="btn btn-secondary text-light">Kupi zdaj</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main image & intro section -->
+    <section id="info">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Popolna postava</div>
+                        <div class="display-5 text-muted">Kje in kako začeti</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Začeti je težko vendar ne nemogoče!</p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Kupi zdaj</a>
+                    <!-- Open sidebar / offcanvas -->
+                    <a class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar"
+                        href="#sidebar">Oglej si moje druge knjige</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img class="img-fluid" src="assets/ebook-cover.png" alt="eBook-cover">
+                </div>
+            </div>
+    </section>
+
+    <!-- pricing plans -->
+    <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Cenovni načrti</h2>
+                <p class="lead text-muted">Izberite cenovni načrt ki je pravi za vas.</p>
+            </div>
+            <div class="row my-5 align-items-center justify-content-center g-2">
+                <!-- Card -->
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Starte Edition</h4>
+                            <p class="lead card-subtittle">eBook dawnload only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">12.99€</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="col-9 col-lg-4">
+                    <div class="card border-primary border-2">
+                        <div class="card-header text-center text-primary">Most Popular</div>
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Completed Edition</h4>
+                            <p class="lead card-subtittle">eBook dawnload only</p>
+                            <p class="display-4 my-4 text-primary fw-bold">12.99€</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Ultimate Edition</h4>
+                            <p class="lead card-subtittle">eBook dawnload only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">12.99€</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- topics at a glance -->
+    <section id="topics">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Vsebina knjige...</h2>
+                <p class="lead text-muted">Osvojite 5 ključnih kompetenc za učinkovito delo s ...</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="assets/kindle.png" class="img-fluid" alt="ebook">
+                </div>
+                <div class="col-lg-6">
+
+                    <!-- accordion -->
+                    <div class="accordion" id="chapters">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                                    Poglavje 1 - Makro
+                                </button>
+                            </h2>
+                            <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                                    Poglavje 2 - Mikrohranila
+                                </button>
+                            </h2>
+                            <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                                    Poglavje 3 - Intermediate Fasting
+                                </button>
+                            </h2>
+                            <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                                    Poglavje 4 - Premagovanje izzivov
+                                </button>
+                            </h2>
+                            <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+                                    Poglavje 5 - Meditacija in wellnes
+                                </button>
+                            </h2>
+                            <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
+                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
+                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews list -->
+    <section id="reviews" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2><i class="bi bi-stars"></i>Resnična menenja</h2>
+                <p class="lead">What my students have said about the book</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <!-- list item -->
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Odlična knjiga z veliko uporabnih informacij</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore qui nemo
+                                sunt consequuntur sed, recusandae explicabo, consequatur repellendus tempora labore
+                                obcaecati animi natus quam cum iure veritatis laborum facilis debitis?</p>
+                            <small>Review by Mario</small>
+                        </div>
+                        <!-- list item -->
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">Odlična knjiga z veliko uporabnih informacij</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore qui nemo
+                                sunt consequuntur sed, recusandae explicabo, consequatur repellendus tempora labore
+                                obcaecati animi natus quam cum iure veritatis laborum facilis debitis?</p>
+                            <small>Review by Mario</small>
+                        </div>
+                        <!-- list item -->
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">Odlična knjiga z veliko uporabnih informacij</h5>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore qui nemo
+                                sunt consequuntur sed, recusandae explicabo, consequatur repellendus tempora labore
+                                obcaecati animi natus quam cum iure veritatis laborum facilis debitis?</p>
+                            <small>Review by Mario</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact from -->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Stopite v stik</h2>
+                <p class="lead">Z veseljem odgovorimo na vaša vprašanja.</p>
+
+                <!-- form -->
+                <div class="row justify-content-center my-5">
+                    <div class="col-lg-6">
+                        <form>
+                            <label for="email" class="form-label">Email address:</label>
+                            <div class="input-group mb-4">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope-fill text-secondary"></i>
+                                </span>
+                                <input type="text" id="email" class="form-control"
+                                    placeholder="e.g. mario@example.com" />
+                            </div>
+
+                            <label for="name" class="form-label">Name:</label>
+                            <div class="input-group mb-4">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-fill text-secondary"></i>
+                                </span>
+                                <input type="text" id="name" class="form-control" placeholder="ime in priimek" />
+                            </div>
+
+                            <label for="subject" class="form-label">Vaše vprašanje</label>
+                            <div class="input-group mb-4">
+                                <span class="input-group-text">
+                                    <i class="bi bi-card-checklist text-secondary"></i>
+                                </span>
+                                <select class="form-select" id="subject">
+                                    <option value="pricing" selected>Price query</option>
+                                    <option value="content">Content query </option>
+                                    <option value="other">Other query </option>
+                                </select>
+                            </div>
+
+
+                            <div class="mb-4 mt-5 form-floating">
+                                <textarea class="form-control" id="query" style="height: 140px"
+                                    placeholder="query"></textarea>
+                                <label for="query">Your query...</label>
+                            </div>
+
+                            <div class="mb-4 text-center">
+                                <button type="submit" class="btn btn-secondary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- get updates / modal trigger -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>Ostani na tekočem</h2>
+                <p class="lead">Pridobite najnovejše posodobitve, ko se zgodijo ...</p>
+            </div>
+            <dib class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quis
+                        facere consequuntur mollitia quia, provident nam ipsum suscipit aliquam architecto? Sunt id,
+                        iste a possimus nihil et ea libero ipsam!</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Prijava na eNovice</button>
+                </div>
+            </dib>
+        </div>
+    </section>
+
+    <!-- the modal itself -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get the latest Updates</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam beatae velit vitae aspernatur
+                        expedita natus error sit facere temporibus sapiente excepturi minus asperiores, labore
+                        voluptatibus, eaque ex ab. Culpa, odio.</p>
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="text" class="form-control" id="modal-email" placeholder="vaš email">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">My Other books</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis labore mollitia, atque omnis saepe
+                quo qui corporis magnam eaque expedita voluptatum architecto culpa blanditiis. Ipsam enim aperiam saepe
+                quas amet!</p>
+            <!-- dropdown -->
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown"
+                    data-bs-toggle="dropdown">Chose a bokk title</button>
+                <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                    <li><a class="dropdown-item" href="#">Become a react super hero</a></li>
+                    <li><a class="dropdown-item" href="#">Conquering Vue.js</a></li>
+                    <li><a class="dropdown-item" href="#">Levelling up Your Next.js</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

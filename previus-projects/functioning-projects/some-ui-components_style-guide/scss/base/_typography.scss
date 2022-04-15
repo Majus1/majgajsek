@@ -1,0 +1,53 @@
+// This is where all the VARIABLES at :::::::::
+@import "../utilities/variables";
+
+// This is where the TYPOGRAPHY at :::::::::
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+    font-family: $lato;
+    color: $body-copy-color;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: $lh-med;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  /* ============================================= */
+  /*              Typography                       */
+  /* ============================================= */
+  
+  .headline-primary {
+    color: $acent-color;
+    margin-left: $small-left-margin;
+  }
+  
+  .headline-secondary {
+    font-weight: $fw-reg;
+    color: $body-copy-color;
+  }
+  
+  .link {
+    color: $link-color;
+    font-weight: $fw-bol;
+  }
+  
+  .blockquote {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $acent-color;
+    border-radius: $edge-curve-s;
+  }
+  
+  

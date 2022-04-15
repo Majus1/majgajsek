@@ -1,0 +1,234 @@
+// ::::: Lay Out :::::
+#student-name {
+    color: $blink_platinum;
+    margin: 0 15px 0 5px;
+}
+
+#profile-image {
+    border-radius: 100px;
+    margin: 0 5px 0;
+}
+
+#notifications {
+    fill: $blink_platinum;
+    padding: 4px;
+    :hover {
+        @keyframes wiggle {
+            30% {
+              transform: rotate(25deg);
+            }
+            50% {
+              transform: rotate(0);
+            }
+            70% {
+              transform: rotate(25deg);
+            }
+        }
+        animation: wiggle 1s;
+        transform-origin: 50% 50%;
+        transform-box: fill-box;
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    padding: 0;
+    background-color: $blink_deep-space-sparkle;
+}
+
+header {
+    // Sets up the header layout
+    background-color: $blink_rich-black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 0;
+        #user-info-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-left: auto;
+            hr {
+                width: 20px;
+                transform: rotate(90deg);
+            }
+            #notifications {
+                width: 20px;
+            }
+            #profile-image {
+                width: 30px;
+                height: 30px;
+            }
+            #notification-dropdown {
+                // sets the style for the notification drop down
+                position: absolute;
+                top: 80px;
+                right: 0;
+                width: 300px;
+                background-color: $blink_platinum;
+                li {
+                    padding-top: 5px;
+                }
+                li:hover {
+                    background-color: #a5ffe2;
+                    margin: 0;
+                }
+                hr {
+                    width: 290px;
+                    transform: rotate(0deg);
+                    margin: 0;
+                }
+                p {
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+    @media (min-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+#sidebar {
+    // Sets up the sidebar layout
+    background-color: $blink_deep-space-sparkle;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    #home-icn,
+    #charts-icn,
+    #members-icn,
+    #settings-icn {
+        width: 35px;
+        height: 35px;
+        margin: 0.45rem 0.7rem;
+    }
+    @media (min-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        flex-direction: column;
+        margin-bottom: auto;
+    }
+}
+
+main {
+    background-color: $blink_platinum;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    @media (min-width: 768px) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+}
+
+#content-area {
+    // Sets up the content area layout
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        #alert-notification-bar {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        #web-traffic {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        #daily-traffic {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        #mobile-traffic {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            border-left: solid 2px $blink_quick-silver;
+        }
+        #social-stats {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            .social-stats__card-section {
+                display: flex;
+                flex-direction: row;
+                flex-grow: 1;
+            }
+            #social-stats__card-container-facebook,
+            #social-stats__card-container-instagram,
+            #social-stats__card-container-twitter {
+                flex-grow: 1;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+#new-members {
+    // Sets up the new-members area layout
+    @media (min-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    @media (min-width: 1024px) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
+#recent-activity {
+    // Sets up the revent-activity area layout
+    @media (min-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    @media (min-width: 1024px) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+
+#message-user {
+    // Sets up the message-user area layout
+    @media (min-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    @media (min-width: 1024px) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
+#settings {
+    // Sets up the settings area layout
+    @media (min-width: 768px) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        border-left: solid 1px $blink_quick-silver;
+    }
+    @media (min-width: 1024px) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+
+// ::::: Lay Out :::::  

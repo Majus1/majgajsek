@@ -1,0 +1,64 @@
+// This is where the BUTTONS at :::::::::
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: $small-top-margin;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: $edge-curve-s;
+  }
+  
+  // Here is where the hover functions are located
+  .default {
+    background-color: $def-btn-color;
+    transition-property: background-color;
+    transition-duration: 0.5s;    
+    &:hover {
+      background-color: lighten($color: $def-btn-color, $amount: 15);
+    }
+  }
+  
+  .error {
+    background-color: $err-btn-color;
+    transition-property: background-color;
+    transition-duration: 0.5s; 
+    &:hover {
+      background-color: lighten($color: $err-btn-color, $amount: 15);
+    }
+  }
+  
+  .info {
+    background-color: $inf-btn-color;
+    transition-property: background-color;
+    transition-duration: 0.5s; 
+    &:hover {
+      background-color: lighten($color: $inf-btn-color, $amount: 15);
+    }
+  }
+  
+  .success {
+    background-color: $suc-btn-color;
+    transition-property: background-color;
+    transition-duration: 0.5s; 
+    &:hover {
+      background-color: lighten($color: $suc-btn-color, $amount: 15);
+    }
+  }
+  
+  .warning {
+    background-color: $war-btn-color;
+    transition-property: background-color;
+    transition-duration: 0.5s; 
+    &:hover {
+      background-color: lighten($color: $war-btn-color, $amount: 15);
+    }
+  }
+  
+  
+  
