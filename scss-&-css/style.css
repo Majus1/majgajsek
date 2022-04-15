@@ -12029,8 +12029,8 @@ body::-webkit-scrollbar {
 }
 
 #hero-section {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../assets/imgaes/maj-gajsek_blink_izdelava-spletnih-strani-5.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/imgaes/maj-gajsek_blink_izdelava-spletnih-strani-5.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../assets/images/maj-gajsek_blink_izdelava-spletnih-strani-5.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/images/maj-gajsek_blink_izdelava-spletnih-strani-5.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
