@@ -1,8 +1,8 @@
 THE BIG BAD TO DO LIST
 
-• Link functioning projects to "pretekla-dela" pages.
 • Fix klickable functionalaty on the previous work selector navigator
 • Fix header an footer on all pages
 
 ::::: DONE :::::
 • Link up pretekla dela pages with home page
+• Link functioning projects to "pretekla-dela" pages.
