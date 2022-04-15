@@ -1,3 +1,4 @@
+console.log("Category switcher added")
 // :::::::::::::::::::::::::::::::::::::
 // Search query on Pretekla dela page
 // :::::::::::::::::::::::::::::::::::::
