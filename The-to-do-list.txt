@@ -1,7 +1,11 @@
 THE BIG BAD TO DO LIST
 
-• Create a about page
+• Tra
+• Design a about page
+• Develope a about page
+
 • Fix header an footer on all pages
+• translate the whole page
 
 ::::: DONE :::::
 • Fix klickable functionalaty on the previous work selector navigator
