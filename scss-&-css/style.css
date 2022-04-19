@@ -12042,6 +12042,16 @@ body::-webkit-scrollbar {
   color: #ffffff;
 }
 
+#hero-section_2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../assets/images/hero-about_1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/images/hero-about_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  height: 50vh;
+}
+
 a {
   text-decoration: none;
 }
@@ -12217,6 +12227,13 @@ a {
           flex-grow: 0;
 }
 
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .scrolled-down {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -12231,12 +12248,14 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.mg-nav {
-  min-height: 90px;
+#majgajsek-header {
+  background-color: #002f2f !important;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
-.mg-nav-scrolled {
-  background-color: #002f2f !important;
+#majgajsek-header.hide {
+  top: -56.516px;
 }
 
 #previous-work h5, #previous-work .h5 {
@@ -12365,5 +12384,13 @@ a {
   #big-bold__container {
     margin-top: 15vh;
   }
+}
+
+#skills {
+  max-width: 1400px;
+}
+
+#skills .skill-spot-light small, #skills .skill-spot-light .small {
+  background-color: #424242;
 }
 /*# sourceMappingURL=style.css.map */
