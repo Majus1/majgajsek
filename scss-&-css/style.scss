@@ -98,6 +98,7 @@ body::-webkit-scrollbar {
     }
 }
 #hero-section_2 {
+    padding-top: 72px;
     background: linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0, .4)), url("../assets/images/hero-about_1.jpg");
     background-position: center;
     background-size: cover;
@@ -281,7 +282,13 @@ a {
 
 #majgajsek-header {
     background-color: $blink_rich-black !important;
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
     transition: all .3s ease;
+    z-index: 100;
 }
 
 #majgajsek-header.hide {
