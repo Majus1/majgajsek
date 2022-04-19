@@ -12049,7 +12049,13 @@ body::-webkit-scrollbar {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  height: 50vh;
+  height: 30vh;
+}
+
+@media (min-width: 992px) {
+  #hero-section_2 {
+    height: 50vh;
+  }
 }
 
 a {
@@ -12208,13 +12214,21 @@ a {
   border-radius: 8px;
 }
 
-.mg-footer {
+#mg-footer_wrapper {
   background-color: #002f2f;
   color: #ffffff;
 }
 
-.mg-footer a {
+#mg-footer_wrapper a {
   color: #ffffff;
+}
+
+#mg-footer_wrapper a:hover {
+  color: #35DEA3;
+}
+
+#mg-footer_content {
+  padding: 0 0 0 12px;
 }
 
 .mg-nav-container {

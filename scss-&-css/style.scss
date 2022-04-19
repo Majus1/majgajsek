@@ -103,7 +103,10 @@ body::-webkit-scrollbar {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
-    height: 50vh;
+    height: 30vh;
+    @media (min-width: 992px) {
+        height: 50vh;
+    }
 }
 a {
     text-decoration: none;
@@ -233,14 +236,20 @@ a {
     }
 }
 
-.mg-footer {
+#mg-footer_wrapper {
     background-color: $blink_rich-black;
     color: $blink_white;
     a {
         color: $blink_white;
     }
+    a:hover {
+        color: $blink_medium-aquamarine;
+    }
 }
 
+#mg-footer_content {
+    padding: 0 0 0 12px;
+}
 
 
 // :::::::::::::::::::::::::::::::::

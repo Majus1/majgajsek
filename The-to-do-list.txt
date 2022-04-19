@@ -1,7 +1,5 @@
-THE BIG BAD TO DO LIST
-
-• Fix hover colors on footer
-• Fix footer alingment with header
+THE BIG BAD TO DO LISs
+• Fix header acting weird
 • Fix button color
 • Develope a about page
 • link up header
@@ -11,6 +9,8 @@ THE BIG BAD TO DO LIST
 • translate the whole page
 
 ::::: DONE :::::
+• Fix hover colors on footer
+• Fix footer alingment with header
 • Design a about page
 • Fix klickable functionalaty on the previous work selector navigator
 • Link up pretekla dela pages with home page
