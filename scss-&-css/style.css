@@ -12382,11 +12382,23 @@ a {
   }
 }
 
-#skills-wrapper .skill-spot-light small, #skills-wrapper .skill-spot-light .small {
+#skills_wrapper .skill-spot-light small, #skills_wrapper .skill-spot-light .small {
   background-color: #424242;
 }
 
-#skills-wrapper #skills-content {
+#skills_wrapper #skills_content {
   max-width: 1176px;
+}
+
+#short-contact_wrapper {
+  background-color: #516969;
+}
+
+#short-contact_wrapper #short-contact_content {
+  max-width: 1176px;
+}
+
+#short-contact_wrapper .icon-row img {
+  width: 30px;
 }
 /*# sourceMappingURL=style.css.map */

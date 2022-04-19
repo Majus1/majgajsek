@@ -407,13 +407,25 @@ a {
 // :::::::::::::::::::::::::::::::::
 // ::::::: ABOUT PAGE ::::::::::::::
 // :::::::::::::::::::::::::::::::::
-#skills-wrapper {
+#skills_wrapper {
     .skill-spot-light {
         small {
             background-color: $blink_onyx;
         }
     }
-    #skills-content {
+    #skills_content {
         max-width: 1176px;
+    }
+}
+
+#short-contact_wrapper {
+    background-color: $blink_deep-space-sparkle;
+    #short-contact_content {
+        max-width: 1176px;
+    }
+    .icon-row {
+        img {
+            width: 30px;
+        }
     }
 }

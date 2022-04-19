@@ -1,14 +1,17 @@
 THE BIG BAD TO DO LIST
 
-• Design a about page
 • Fix hover colors on footer
+• Fix footer alingment with header
 • Fix button color
 • Develope a about page
+• link up header
+• Link up social media icons
 
 • Fix header an footer on all pages
 • translate the whole page
 
 ::::: DONE :::::
+• Design a about page
 • Fix klickable functionalaty on the previous work selector navigator
 • Link up pretekla dela pages with home page
 • Link functioning projects to "pretekla-dela" pages.
