@@ -1,7 +1,8 @@
 THE BIG BAD TO DO LIST
 
-• Tra
 • Design a about page
+• Fix hover colors on footer
+• Fix button color
 • Develope a about page
 
 • Fix header an footer on all pages

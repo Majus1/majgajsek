@@ -12217,10 +12217,6 @@ a {
   color: #ffffff;
 }
 
-.mg-content-container {
-  max-width: 1400px;
-}
-
 .mg-nav-container {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
@@ -12386,11 +12382,11 @@ a {
   }
 }
 
-#skills {
-  max-width: 1400px;
+#skills-wrapper .skill-spot-light small, #skills-wrapper .skill-spot-light .small {
+  background-color: #424242;
 }
 
-#skills .skill-spot-light small, #skills .skill-spot-light .small {
-  background-color: #424242;
+#skills-wrapper #skills-content {
+  max-width: 1176px;
 }
 /*# sourceMappingURL=style.css.map */

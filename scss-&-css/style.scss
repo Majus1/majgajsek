@@ -247,12 +247,6 @@ a {
 // :::::::::: HEADER :::::::::::::::
 // :::::::::::::::::::::::::::::::::
 
-
-
-.mg-content-container {
-    max-width: 1400px;
-}
-
 .mg-nav-container {
     flex-grow: 0;
 }
@@ -413,11 +407,13 @@ a {
 // :::::::::::::::::::::::::::::::::
 // ::::::: ABOUT PAGE ::::::::::::::
 // :::::::::::::::::::::::::::::::::
-#skills {
+#skills-wrapper {
     .skill-spot-light {
         small {
             background-color: $blink_onyx;
         }
     }
-    max-width: 1400px;
+    #skills-content {
+        max-width: 1176px;
+    }
 }
