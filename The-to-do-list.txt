@@ -1,13 +1,16 @@
 THE BIG BAD TO DO LISs
-• Fix button color
-• Develope a about page
-• link up header
-• Link up social media icons
-
-• Fix header an footer on all pages
 • translate the whole page
+• Develope a resume page
+• Develope a contact page
+• Design the DD sticker
+
 
 ::::: DONE :::::
+• Fix header an footer on all pages
+• link up header
+• Link up social media icons
+• Develope a about page
+• Fix button color
 • Fix header acting weird
 • Fix hover colors on footer
 • Fix footer alingment with header
