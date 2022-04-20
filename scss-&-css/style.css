@@ -12375,6 +12375,10 @@ a {
   padding-bottom: 90px;
 }
 
+#single-project .btn-primary {
+  background-color: #35DEA3;
+}
+
 .mg-fade-in {
   opacity: 0;
   -webkit-transition: opacity 250ms ease-in;

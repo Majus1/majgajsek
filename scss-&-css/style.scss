@@ -393,6 +393,9 @@ a {
 #single-project {
     padding-top: 90px;
     padding-bottom: 90px;
+    .btn-primary {
+        background-color: $blink_medium-aquamarine;
+    }
 }
 
 // :::::::::::::::::::::::::::::::::

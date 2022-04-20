@@ -1,5 +1,4 @@
 THE BIG BAD TO DO LISs
-• Fix header acting weird
 • Fix button color
 • Develope a about page
 • link up header
@@ -9,6 +8,7 @@ THE BIG BAD TO DO LISs
 • translate the whole page
 
 ::::: DONE :::::
+• Fix header acting weird
 • Fix hover colors on footer
 • Fix footer alingment with header
 • Design a about page
