@@ -1,11 +1,12 @@
 THE BIG BAD TO DO LISs
-• Make site live
-• take a look at the buttons in every project page
+• Link everything up
+• take a look at the buttons in every project page (Ask Valentin and Urban)
 • Develope a resume page
 • Design the DD sticker
 
 
 ::::: DONE :::::
+• Make site live
 • Add a favicone
 • Develope a contact page
 • translate the whole page
