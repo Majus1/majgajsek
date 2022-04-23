@@ -1,16 +1,13 @@
 THE BIG BAD TO DO LISs
-• translate the whole page
-http://127.0.0.1:5500/previus-projects/custom-app-icons.html
-http://127.0.0.1:5500/previus-projects/tripex-ecommerce-rebranding.html
-http://127.0.0.1:5500/previus-projects/employee-directory.html
 • Develope a resume page
 • Develope a contact page
 • Design the DD sticker
 • Add a favicone
+• take a look at the buttons in every project page
 
 
 ::::: DONE :::::
-• Fix header an footer on all pages
+• translate the whole page
 • link up header
 • Link up social media icons
 • Develope a about page
