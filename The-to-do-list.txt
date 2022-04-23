@@ -1,12 +1,13 @@
 THE BIG BAD TO DO LISs
-• Develope a resume page
-• Develope a contact page
-• Design the DD sticker
 • Add a favicone
 • take a look at the buttons in every project page
+• Make site live
+• Develope a resume page
+• Design the DD sticker
 
 
 ::::: DONE :::::
+• Develope a contact page
 • translate the whole page
 • link up header
 • Link up social media icons
