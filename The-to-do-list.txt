@@ -1,12 +1,12 @@
 THE BIG BAD TO DO LISs
-• Add a favicone
-• take a look at the buttons in every project page
 • Make site live
+• take a look at the buttons in every project page
 • Develope a resume page
 • Design the DD sticker
 
 
 ::::: DONE :::::
+• Add a favicone
 • Develope a contact page
 • translate the whole page
 • link up header
