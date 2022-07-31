@@ -6,6 +6,7 @@ THE BIG BAD TO DO LISs
 
 
 ::::: DONE :::::
+• Updated file naming
 • Make site live
 • Add a favicone
 • Develope a contact page
