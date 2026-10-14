@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Njam Privacy Policy</title>
+<meta name="description" content="Privacy policy for Njam – Shared Pantry (iOS). Politika zasebnosti za aplikacijo Njam.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FFF9E6;
+    --card: #FFFFFF;
+    --ink: #1C1C1C;
+    --muted: #5C5647;
+    --line: #EFE4C2;
+    --accent: #F58A17;
+    --chip: #FFF4CC;
+    --chip-active: #FFE316;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1A1813;
+      --card: #24211A;
+      --ink: #F5F0E1;
+      --muted: #B8AF98;
+      --line: #3A3528;
+      --accent: #F79A1E;
+      --chip: #2E2A20;
+      --chip-active: #FFC61A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 500 17px/1.6 "Quicksand", -apple-system, system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px; }
+  .brand { font: 900 40px/1 "Londrina Solid", system-ui, sans-serif; letter-spacing: .5px; margin: 0; }
+  .lang { display: flex; gap: 6px; background: var(--chip); padding: 4px; border-radius: 999px; }
+  .lang a {
+    color: var(--ink); text-decoration: none; font-weight: 700; font-size: 15px;
+    padding: 6px 14px; border-radius: 999px;
+  }
+  .lang a[aria-current="true"] { background: var(--chip-active); color: #1C1C1C; }
+  article {
+    background: var(--card); border: 1px solid var(--line); border-radius: 24px;
+    padding: 24px 20px; margin-bottom: 24px;
+  }
+  h1 { font: 900 30px/1.15 "Londrina Solid", system-ui, sans-serif; margin: 0 0 4px; }
+  h2 { font-size: 19px; font-weight: 700; margin: 28px 0 6px; }
+  .updated { color: var(--muted); font-size: 15px; margin: 0 0 16px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; margin: 0 0 10px; }
+  a { color: var(--accent); }
+  strong { font-weight: 700; }
+  footer { color: var(--muted); font-size: 14px; text-align: center; }
+  /* With JS, show one language at a time; without JS, both stay visible. */
+  .js article[hidden] { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="brand">Njam</p>
+    <nav class="lang" aria-label="Language">
+      <a href="#en" data-lang="en">English</a>
+      <a href="#sl" data-lang="sl">Slovenščina</a>
+    </nav>
+  </header>
+
+  <article id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Njam – Shared Pantry · Last updated 14 October 2026</p>
+
+    <p>Njam is an iPhone app that helps a household keep track of what's in the fridge, freezer and pantry, together. This policy explains what data Njam collects, why, and what you can do about it. Njam is currently in beta testing.</p>
+
+    <h2>Who is responsible</h2>
+    <p>Njam is developed by Maj Gajšek, an individual developer based in Slovenia, who is the data controller. Contact: <a href="mailto:maj.gajsek@gmail.com">maj.gajsek@gmail.com</a>.</p>
+
+    <h2>What we collect</h2>
+    <ul>
+      <li><strong>Account:</strong> your email address, a password (stored only in hashed form by our authentication provider) and the display name you choose.</li>
+      <li><strong>Household:</strong> the household's name, its invite code and who its members are.</li>
+      <li><strong>What you enter in the app:</strong> inventory items (name, quantity, unit, storage location, minimum stock, barcode), shopping list items, the history of who used or restocked what and when, food diary entries, saved meals, your daily calorie and nutrition goals, and in-app reward coins.</li>
+    </ul>
+    <p>Everything you add to a household is visible to the other members of that household. That's the point of the app: it's a shared pantry.</p>
+
+    <h2>Camera, microphone and speech</h2>
+    <ul>
+      <li><strong>Camera</strong> is used only to scan barcodes. Images aren't stored or uploaded.</li>
+      <li><strong>Barcode lookup:</strong> when you scan a product, its barcode number (nothing else) is sent to <a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a>, a free public food database, to fill in the product name and nutrition.</li>
+      <li><strong>Microphone and speech recognition</strong> are used only when you tap the microphone to log stock by voice. Your speech is turned into text by Apple's speech recognition, which may process the audio on Apple's servers (see Apple's privacy policy). Njam doesn't store your recordings or transcripts. It only saves the resulting change to your inventory.</li>
+    </ul>
+
+    <h2>Notifications</h2>
+    <p>Low-stock reminders are created on your phone. They don't require sending your data anywhere.</p>
+
+    <h2>Usage analytics</h2>
+    <p>To understand whether the beta is working (for example, whether households get set up and keep using the app), we may record basic usage events, such as "item added" or "household joined", linked to your account, using <a href="https://posthog.com/privacy">PostHog</a>. We don't use this for advertising and we don't sell it.</p>
+
+    <h2>Why we use it (legal basis)</h2>
+    <p>We process your account and household data to provide the app to you (performance of a contract). We use usage analytics on the basis of our legitimate interest in understanding and improving the beta. We don't sell your data, show ads or share your data with anyone for marketing.</p>
+
+    <h2>Where it's stored</h2>
+    <p>Your data is stored with <a href="https://supabase.com/privacy">Supabase</a>, which provides Njam's database and sign-in. Our service providers (Supabase, PostHog and Apple) may process data outside the EU. Where they do, they rely on safeguards recognised under the GDPR, such as Standard Contractual Clauses.</p>
+
+    <h2>How long we keep it</h2>
+    <p>We keep your data for as long as you have an account. If you ask us to delete your account, we delete your account and personal data within 30 days. Items you added to a shared household stay with that household, but they're no longer linked to you. Beta test data may be deleted when the beta ends.</p>
+
+    <h2>Your rights</h2>
+    <p>Under the GDPR you can ask to access, correct, export or delete your data, or object to its processing. To delete your account or exercise any of these rights, email <a href="mailto:maj.gajsek@gmail.com">maj.gajsek@gmail.com</a> from the address you signed up with. If you're unhappy with how we handle your data, you can complain to the Slovenian data protection authority, the <a href="https://www.ip-rs.si/">Information Commissioner (Informacijski pooblaščenec)</a>.</p>
+
+    <h2>Children</h2>
+    <p>Njam isn't intended for children under 16.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, we'll update the date above. For significant changes, we'll let beta testers know.</p>
+  </article>
+
+  <article id="sl" lang="sl">
+    <h1>Politika zasebnosti</h1>
+    <p class="updated">Njam – Shared Pantry · Zadnja posodobitev 14. oktober 2026</p>
+
+    <p>Njam je aplikacija za iPhone, s katero gospodinjstvo skupaj spremlja, kaj ima v hladilniku, zamrzovalniku in shrambi. Ta politika pojasnjuje, katere podatke Njam zbira, zakaj, in kaj lahko glede tega storite. Njam je trenutno v fazi beta testiranja.</p>
+
+    <h2>Kdo je odgovoren</h2>
+    <p>Njam razvija Maj Gajšek, posameznik s sedežem v Sloveniji, ki je upravljavec podatkov. Kontakt: <a href="mailto:maj.gajsek@gmail.com">maj.gajsek@gmail.com</a>.</p>
+
+    <h2>Katere podatke zbiramo</h2>
+    <ul>
+      <li><strong>Račun:</strong> vaš e-poštni naslov, geslo (ponudnik prijave ga hrani le v zgoščeni obliki) in prikazno ime, ki ga izberete.</li>
+      <li><strong>Gospodinjstvo:</strong> ime gospodinjstva, njegova koda za povabilo in seznam članov.</li>
+      <li><strong>Kar vnesete v aplikacijo:</strong> izdelki v zalogi (ime, količina, enota, lokacija, minimalna zaloga, črtna koda), izdelki na nakupovalnem seznamu, zgodovina tega, kdo je kaj porabil ali dopolnil in kdaj, vnosi v prehranski dnevnik, shranjeni obroki, vaši dnevni cilji za kalorije in hranila ter kovanci za nagrade v aplikaciji.</li>
+    </ul>
+    <p>Vse, kar dodate v gospodinjstvo, vidijo tudi drugi člani tega gospodinjstva. To je tudi namen aplikacije: skupna shramba.</p>
+
+    <h2>Kamera, mikrofon in prepoznavanje govora</h2>
+    <ul>
+      <li><strong>Kamera</strong> se uporablja samo za skeniranje črtnih kod. Slike se ne shranjujejo in ne pošiljajo nikamor.</li>
+      <li><strong>Iskanje po črtni kodi:</strong> ko skenirate izdelek, se številka črtne kode (in nič drugega) pošlje v <a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a>, brezplačno javno bazo živil, da se izpolnita ime izdelka in hranilne vrednosti.</li>
+      <li><strong>Mikrofon in prepoznavanje govora</strong> se uporabljata samo, ko tapnete mikrofon, da zalogo vnesete z glasom. Govor v besedilo pretvori Applovo prepoznavanje govora, ki lahko zvok obdela na Applovih strežnikih (glejte Applovo politiko zasebnosti). Njam ne shranjuje vaših posnetkov ali prepisov. Shrani samo spremembo zaloge, ki iz njih nastane.</li>
+    </ul>
+
+    <h2>Obvestila</h2>
+    <p>Opomniki o nizki zalogi nastanejo na vašem telefonu. Za njih vaših podatkov ni treba nikamor pošiljati.</p>
+
+    <h2>Analitika uporabe</h2>
+    <p>Da bi razumeli, ali beta deluje (na primer, ali si gospodinjstva aplikacijo nastavijo in jo še naprej uporabljajo), lahko z orodjem <a href="https://posthog.com/privacy">PostHog</a> beležimo osnovne dogodke uporabe, kot sta »dodan izdelek« ali »pridružitev gospodinjstvu«, povezane z vašim računom. Teh podatkov ne uporabljamo za oglaševanje in jih ne prodajamo.</p>
+
+    <h2>Zakaj jih uporabljamo (pravna podlaga)</h2>
+    <p>Podatke o računu in gospodinjstvu obdelujemo, da vam lahko zagotovimo aplikacijo (izvajanje pogodbe). Analitiko uporabe izvajamo na podlagi zakonitega interesa, da razumemo in izboljšamo beto. Vaših podatkov ne prodajamo, ne prikazujemo oglasov in jih z nikomer ne delimo za namene trženja.</p>
+
+    <h2>Kje so shranjeni</h2>
+    <p>Vaši podatki so shranjeni pri ponudniku <a href="https://supabase.com/privacy">Supabase</a>, ki zagotavlja Njamovo podatkovno bazo in prijavo. Naši ponudniki storitev (Supabase, PostHog in Apple) lahko podatke obdelujejo tudi zunaj EU. V takem primeru se opirajo na zaščitne ukrepe, ki jih priznava GDPR, kot so standardne pogodbene klavzule.</p>
+
+    <h2>Kako dolgo jih hranimo</h2>
+    <p>Podatke hranimo, dokler imate račun. Če nas prosite za izbris računa, vaš račun in osebne podatke izbrišemo v 30 dneh. Izdelki, ki ste jih dodali v skupno gospodinjstvo, ostanejo v tem gospodinjstvu, vendar niso več povezani z vami. Podatki iz beta testiranja se lahko ob koncu bete izbrišejo.</p>
+
+    <h2>Vaše pravice</h2>
+    <p>Po GDPR lahko zahtevate dostop do svojih podatkov, njihov popravek, izvoz ali izbris, ali pa ugovarjate njihovi obdelavi. Za izbris računa ali uveljavljanje katere koli od teh pravic pišite na <a href="mailto:maj.gajsek@gmail.com">maj.gajsek@gmail.com</a> z naslova, s katerim ste se registrirali. Če niste zadovoljni s tem, kako ravnamo z vašimi podatki, se lahko pritožite pri <a href="https://www.ip-rs.si/">Informacijskem pooblaščencu RS</a>.</p>
+
+    <h2>Otroci</h2>
+    <p>Njam ni namenjen otrokom, mlajšim od 16 let.</p>
+
+    <h2>Spremembe</h2>
+    <p>Če se ta politika spremeni, bomo posodobili datum zgoraj. O večjih spremembah bomo obvestili beta testerje.</p>
+  </article>
+
+  <footer>© 2026 Maj Gajšek · <a href="mailto:maj.gajsek@gmail.com">maj.gajsek@gmail.com</a></footer>
+</main>
+<script>
+  (function () {
+    var root = document.documentElement;
+    root.classList.add("js");
+    var links = document.querySelectorAll(".lang a");
+    function show(lang) {
+      ["en", "sl"].forEach(function (l) {
+        document.getElementById(l).hidden = l !== lang;
+      });
+      links.forEach(function (a) {
+        a.setAttribute("aria-current", a.dataset.lang === lang ? "true" : "false");
+      });
+      root.lang = lang;
+    }
+    var hash = location.hash.replace("#", "");
+    var initial = hash === "sl" || hash === "en" ? hash
+      : (navigator.language || "").toLowerCase().indexOf("sl") === 0 ? "sl" : "en";
+    show(initial);
+    links.forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        show(a.dataset.lang);
+        history.replaceState(null, "", "#" + a.dataset.lang);
+      });
+    });
+  })();
+</script>
+</body>
+</html>
